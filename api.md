@@ -12,3 +12,4 @@
 * XPlat.Storage
 * XPlat.Storage.Pickers
 * XPlat.UI.Core
+
