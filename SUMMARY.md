@@ -3,8 +3,6 @@
 * [XPlat Windows APIs](README.md)
 * [Changelog](changelog.md)
 
-## API
-
-### XPlat.Core
-* [Untitled](api/XPlat.Core/untitled.md)
+## XPlat.Core
+* [AppPermissionInvalidException](XPlat.Core/apppermissioninvalidexception.md)
 

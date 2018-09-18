@@ -1,0 +1,2 @@
+# AppPermissionInvalidException class
+
