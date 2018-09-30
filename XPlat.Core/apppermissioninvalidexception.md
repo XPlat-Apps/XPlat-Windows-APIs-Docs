@@ -8,7 +8,7 @@ Defines an exception that is thrown when an application permission is not set.
 public class AppPermissionInvalidException : Exception
 ```
 
-### Supported platforms
+## Supported platforms
 
 | Platform | Version |
 | --- | --- |

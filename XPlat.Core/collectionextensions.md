@@ -4,7 +4,7 @@
 
 Defines a collection of extensions for enumerable objects.
 
-### Supported platforms
+## Supported platforms
 
 | Platform | Version |
 | --- | --- |
