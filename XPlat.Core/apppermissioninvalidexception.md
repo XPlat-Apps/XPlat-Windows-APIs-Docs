@@ -22,20 +22,20 @@ public class AppPermissionInvalidException : Exception
 ### AppPermissionInvalidException(string, string)
 
 #### Parameters
-##### permission
+##### permission (string)
 The permission which could not be found.
-##### message
+##### message (string)
 The error message that explains the reason for the exception.
 
 ### AppPermissionInvalidException(string, string, Exception)
 
 
 #### Parameters
-##### permission
+##### permission (string)
 The permission which could not be found.
-##### message
+##### message (string)
 The error message that explains the reason for the exception.
-##### innerException
+##### innerException (Exception)
 The exception that is the cause of the current exception.
 
 ## Properties
