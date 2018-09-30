@@ -5,4 +5,4 @@
 
 ## XPlat.Core
 * [AppPermissionInvalidException](XPlat.Core/apppermissioninvalidexception.md)
-
+* [CollectionExtensions](XPlat.Core/collectionextensions.md)
