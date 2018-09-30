@@ -24,7 +24,7 @@ public static IEnumerable<T> Take<T>(this List<T> list, int startingIndex, int t
 ```
 
 #### Parameters
-##### list (List\<T>)
+##### list (List)
 The list to take items from.
 ##### startingIndex (int)
 The index to start at in the list.
@@ -54,7 +54,7 @@ List<IStorageItem> specificItems = items.Take(5, 10).ToList();
 ```
 
 #### Parameters
-##### list (List\<T>)
+##### list (List)
 The list to take items from.
 ##### startingIndex (int)
 The index to start at in the list.
