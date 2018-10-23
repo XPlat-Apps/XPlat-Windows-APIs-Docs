@@ -29,7 +29,6 @@ The error message that explains the reason for the exception.
 
 ### AppPermissionInvalidException(string, string, Exception)
 
-
 #### Parameters
 ##### permission (string)
 The permission which could not be found.
