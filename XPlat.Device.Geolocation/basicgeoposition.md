@@ -45,6 +45,18 @@ public double Altitude;
 
 ## Constructors
 
+### BasicGeoposition(double, double, double)
+
+#### Parameters
+##### latitude (double)
+The latitude of the geographic position.
+
+##### longitude (double)
+The longitude of the geographic position.
+
+##### altitude (double)
+The altitude of the geographic position.
+
 ### BasicGeoposition(Windows.Devices.Geolocation.BasicGeoposition) - Windows
 
 #### Parameters
