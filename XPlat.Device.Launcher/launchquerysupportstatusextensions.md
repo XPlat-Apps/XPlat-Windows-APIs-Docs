@@ -1,3 +1,3 @@
 # LaunchQuerySupportStatusExtensions class
 
-> Namespace: XPlat.Devices.Launcher.Extensions
+> Namespace: XPlat.Device.Launcher.Extensions

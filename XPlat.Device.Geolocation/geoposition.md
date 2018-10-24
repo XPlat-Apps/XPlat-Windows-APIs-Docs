@@ -1,3 +1,3 @@
 # Geoposition class
 
-> Namespace: XPlat.Devices.Geolocation
+> Namespace: XPlat.Device.Geolocation

@@ -1,3 +1,3 @@
 # PositionStatus enum
 
-> Namespace: XPlat.Devices.Geolocation
+> Namespace: XPlat.Device.Geolocation

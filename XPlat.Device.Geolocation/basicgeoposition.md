@@ -1,6 +1,6 @@
 # BasicGeoposition struct
 
-> Namespace: XPlat.Devices.Geolocation
+> Namespace: XPlat.Device.Geolocation
 
 The basic information to describe a geographic position.
 

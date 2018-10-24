@@ -4,7 +4,7 @@
 
 ### Added
 
-* Added Launcher component for Windows in XPlat.Devices.Launcher
+* Added Launcher component for Windows in XPlat.Device.Launcher
 * Added RequestCodeHelper for aiding with Android intents to XPlat.Core
 * Implemented Properties properties on StorageFile and StorageFolder for Windows in XPlat.Storage
 
@@ -14,7 +14,7 @@
   * All projects have been moved to .NET Standard 1.4 and use multi-targeting to provide platform specific code.
   * XPlat.Storage library has split out into XPlat.Storage and XPlat.Storage.Pickers libraries to be inline with Windows SDK
   * XPlat.Media library has been renamed to XPlat.Media.Capture to be inline with Windows SDK
-  * Launcher class in XPlat.Devices.Launcher is no longer static and implements an interface for better cross-platform-ability 
+  * Launcher class in XPlat.Device.Launcher is no longer static and implements an interface for better cross-platform-ability 
   * NSDate and NSObject extensions for iOS moved to XPlat.Core
 * Marked the ParseHelper class as **obsolete** with plan to remove in a future release. 
 

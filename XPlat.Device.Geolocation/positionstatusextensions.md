@@ -1,3 +1,3 @@
 # PositionStatusExtensions class
 
-> Namespace: XPlat.Devices.Geolocation.Extensions
+> Namespace: XPlat.Device.Geolocation.Extensions

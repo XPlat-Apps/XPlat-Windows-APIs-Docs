@@ -1,3 +1,3 @@
 # Launcher class
 
-> Namespace: XPlat.Devices.Launcher
+> Namespace: XPlat.Device.Launcher
