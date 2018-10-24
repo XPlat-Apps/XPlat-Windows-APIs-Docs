@@ -4,6 +4,10 @@
 
 Defines a collection of extensions for NSDate objects.
 
+```csharp
+public static class NSDateExtensions
+```
+
 ## Supported platforms
 
 | Platform | Version |

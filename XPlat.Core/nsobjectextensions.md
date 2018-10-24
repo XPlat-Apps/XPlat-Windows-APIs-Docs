@@ -4,6 +4,10 @@
 
 Defines a collection of extensions for NSObject objects.
 
+```csharp
+public static class NSObjectExtensions
+```
+
 ## Supported platforms
 
 | Platform | Version |
