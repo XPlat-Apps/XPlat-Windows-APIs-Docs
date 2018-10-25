@@ -15,5 +15,5 @@ public interface IGeopoint
 Gets or sets the position of a geographic point.
 
 ```csharp
-public BasicGeoposition Position { get; set; }
+BasicGeoposition Position { get; set; }
 ```

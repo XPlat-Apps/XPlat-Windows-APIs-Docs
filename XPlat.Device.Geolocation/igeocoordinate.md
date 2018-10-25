@@ -15,7 +15,7 @@ public interface IGeocoordinate
 Gets or sets the latitude in degrees. The valid range of values is from -90.0 to 90.0.
 
 ```csharp
-public double Latitude { get; set; }
+double Latitude { get; set; }
 ```
 
 ### Longitude
@@ -23,7 +23,7 @@ public double Latitude { get; set; }
 Gets or sets the longitude in degrees. The valid range of values is from -180.0 to 180.0.
 
 ```csharp
-public double Longitude { get; set; }
+double Longitude { get; set; }
 ```
 
 ### Altitude
@@ -31,7 +31,7 @@ public double Longitude { get; set; }
 Gets or sets the altitude of the location, in meters.
 
 ```csharp
-public double Altitude { get; set; }
+double Altitude { get; set; }
 ```
 
 ### Accuracy
@@ -39,7 +39,7 @@ public double Altitude { get; set; }
 Gets or sets the accuracy of the location in meters.
 
 ```csharp
-public double Accuracy { get; set; }
+double Accuracy { get; set; }
 ```
 
 ### Heading
@@ -47,7 +47,7 @@ public double Accuracy { get; set; }
 Gets or sets the current heading in degrees relative to true north.
 
 ```csharp
-public double Heading { get; set; }
+double Heading { get; set; }
 ```
 
 ### Speed
@@ -55,7 +55,7 @@ public double Heading { get; set; }
 Gets or sets the speed in meters per second.
 
 ```csharp
-public double Speed { get; set; }
+double Speed { get; set; }
 ```
 
 ### Timestamp
@@ -63,7 +63,7 @@ public double Speed { get; set; }
 Gets or sets the system time at which the location was determined.
 
 ```csharp
-public DateTimeOffset Timestamp { get; set; }
+DateTimeOffset Timestamp { get; set; }
 ```
 
 ### Point
@@ -71,5 +71,5 @@ public DateTimeOffset Timestamp { get; set; }
 Gets or sets the location of the Geocoordinate.
 
 ```csharp
-public Geopoint Point { get; set; }
+Geopoint Point { get; set; }
 ```

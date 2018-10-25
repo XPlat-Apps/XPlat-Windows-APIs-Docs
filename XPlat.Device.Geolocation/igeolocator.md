@@ -15,7 +15,7 @@ public interface IGeolocator
 Gets the last known position recorded by the Geolocator.
 
 ```csharp
-public Geoposition LastKnownPosition { get; }
+Geoposition LastKnownPosition { get; }
 ```
 
 ### ReportInterval
@@ -23,7 +23,7 @@ public Geoposition LastKnownPosition { get; }
 Gets or sets the requested minimum time interval between location updates, in milliseconds. If your application requires updates infrequently, set this value so that location services can conserve power by calculating location only when needed.
 
 ```csharp
-public uint ReportInterval { get; set; }
+uint ReportInterval { get; set; }
 ```
 
 ### MovementThreshold
@@ -31,7 +31,7 @@ public uint ReportInterval { get; set; }
 Gets or sets the distance of movement, in meters, relative to the coordinate from the last PositionChanged event, that is required for the Geolocator to raise a PositionChanged event.
 
 ```csharp
-public double MovementThreshold { get; set; }
+double MovementThreshold { get; set; }
 ```
 
 ### LocationStatus
@@ -39,7 +39,7 @@ public double MovementThreshold { get; set; }
 Gets the status that indicates the ability of the Geolocator to provide location updates.
 
 ```csharp
-public PositionStatus LocationStatus { get; }
+PositionStatus LocationStatus { get; }
 ```
 
 ### DesiredAccuracy
@@ -47,7 +47,7 @@ public PositionStatus LocationStatus { get; }
 Gets or sets the accuracy level at which the Geolocator provides location updates.
 
 ```csharp
-public PositionAccuracy DesiredAccuracy { get; set; }
+PositionAccuracy DesiredAccuracy { get; set; }
 ```
 
 ### DesiredAccuracyInMeters
@@ -55,7 +55,7 @@ public PositionAccuracy DesiredAccuracy { get; set; }
 Gets or sets the desired accuracy in meters for data returned from the location service.
 
 ```csharp
-public uint DesiredAccuracyInMeters { get; set; }
+uint DesiredAccuracyInMeters { get; set; }
 ```
 
 ## Methods
@@ -65,7 +65,7 @@ public uint DesiredAccuracyInMeters { get; set; }
 Starts an asynchronous operation to retrieve the current location of the device.
 
 ```csharp
-public Task<Geoposition> GetGeopositionAsync()
+Task<Geoposition> GetGeopositionAsync()
 ```
 
 #### Returns
@@ -76,7 +76,7 @@ An asynchronous operation that, upon completion, returns a Geoposition marking t
 Starts an asynchronous operation to retrieve the current location of the device.
 
 ```csharp
-public Task<Geoposition> GetGeopositionAsync(TimeSpan maximumAge, TimeSpan timeout)
+Task<Geoposition> GetGeopositionAsync(TimeSpan maximumAge, TimeSpan timeout)
 ```
 
 #### Parameters
@@ -94,7 +94,7 @@ An asynchronous operation that, upon completion, returns a Geoposition marking t
 Requests permission to access location data.
 
 ```csharp
-public Task<GeolocationAccessStatus> RequestAccessAsync()
+Task<GeolocationAccessStatus> RequestAccessAsync()
 ```
 
 #### Returns
@@ -107,7 +107,7 @@ A GeolocationAccessStatus that indicates if permission to location data has been
 Raised when the location is updated.
 
 ```csharp
-public event TypedEventHandler<IGeolocator, PositionChangedEventArgs> PositionChanged;
+event TypedEventHandler<IGeolocator, PositionChangedEventArgs> PositionChanged;
 ```
 
 ### StatusChanged
@@ -115,5 +115,5 @@ public event TypedEventHandler<IGeolocator, PositionChangedEventArgs> PositionCh
 Raised when the ability of the Geolocator to provide updated location changes.
 
 ```csharp
-public event TypedEventHandler<IGeolocator, StatusChangedEventArgs> StatusChanged;
+event TypedEventHandler<IGeolocator, StatusChangedEventArgs> StatusChanged;
 ```
