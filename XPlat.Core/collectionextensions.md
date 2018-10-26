@@ -4,6 +4,10 @@
 
 Defines a collection of extensions for enumerable objects.
 
+```csharp
+public static class CollectionExtensions
+```
+
 ## Supported platforms
 
 | Platform | Version |
