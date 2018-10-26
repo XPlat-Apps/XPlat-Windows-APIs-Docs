@@ -21,7 +21,7 @@ public class DisplayRequest : IDisplayRequest
 ```csharp
 public void Initialize()
 {
-    this.displayRequest - new DisplayRequest(this.Activity.Window);
+    this.displayRequest = new DisplayRequest(this.Activity.Window);
     
     try
     {
