@@ -3,6 +3,15 @@
 * [XPlat Windows APIs](README.md)
 * [Changelog](changelog.md)
 
+## XPlat.ApplicationModel
+* [IPackage](XPlat.ApplicationModel/ipackage.md)
+* [IPackage2](XPlat.ApplicationModel/ipackage2.md)
+* [IPackage3](XPlat.ApplicationModel/ipackage3.md)
+* [IPackageId](XPlat.ApplicationModel/ipackageid.md)
+* [Package](XPlat.ApplicationModel/package.md)
+* [PackageId](XPlat.ApplicationModel/packageid.md)
+* [PackageVersion](XPlat.ApplicationModel/packageversion.md)
+
 ## XPlat.Core
 * [AppPermissionInvalidException](XPlat.Core/apppermissioninvalidexception.md)
 * [CollectionExtensions](XPlat.Core/collectionextensions.md)
