@@ -13,9 +13,16 @@ public class Package : IPackage, IPackage2, IPackage3
 | Platform | Version |
 | --- | --- |
 | Xamarin.Android | 8.1 |
+| Xamarin.iOS  | 1.0 |
 | UWP | 10.0 | 
 
 ## Constructors
+
+### Package(Foundation.NSBundle) - iOS
+
+#### Parameters
+##### bundle (Foundation.NSBundle)
+The iOS NSBundle reference to retrieve relevant information from.
 
 ### Package(Windows.ApplicationModel.Package) - Windows
 
@@ -87,6 +94,14 @@ Gets the original Android PackageInfo reference object.
 
 ```csharp
 public Android.Content.PM.PackageInfo Originator { get; }
+```
+
+### Originator - iOS
+
+Gets the original iOS NSBundle reference object.
+
+```csharp
+public Foundation.NSBundle Originator { get; }
 ```
 
 ### Originator - Windows

@@ -13,6 +13,7 @@ public class PackageId : IPackageId
 | Platform | Version |
 | --- | --- |
 | Xamarin.Android | 8.1 |
+| Xamarin.iOS  | 1.0 |
 | UWP | 10.0 | 
 
 ## Constructors
@@ -22,6 +23,12 @@ public class PackageId : IPackageId
 #### Parameters
 ##### packageInfo (Android.Content.PM.PackageInfo)
 The Android PackageInfo reference to retrieve relevant information from.
+
+### PackageId(Foundation.NSBundle) - iOS
+
+#### Parameters
+##### bundle (Foundation.NSBundle)
+The iOS NSBundle reference to retrieve relevant information from.
 
 ### PackageId(Windows.ApplicationModel.PackageId) - Windows
 
@@ -61,6 +68,14 @@ Gets the original Android PackageInfo reference object.
 
 ```csharp
 public Android.Content.PM.PackageInfo Originator { get; }
+```
+
+### Originator - iOS
+
+Gets the original iOS NSBundle reference object.
+
+```csharp
+public Foundation.NSBundle Originator { get; }
 ```
 
 ### Originator - Windows
