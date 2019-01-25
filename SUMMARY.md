@@ -59,6 +59,12 @@
 * [IPowerManager](XPlat.Device.Power/ipowermanager.md)
 * [PowerManager](XPlat.Device.Power/powermanager.md)
 
+## XPlat.Device.Profile
+
+* [AnalyticsInfo](XPlat.Device.Profile/analyticsinfo.md)
+* [AnalyticsVersionInfo](XPlat.Device.Profile/analyticsversioninfo.md)
+* [IAnalyticsVersionInfo](XPlat.Device.Profile/ianalyticsversioninfo.md)
+
 ## XPlat.Foundation
 
 * [CollectionChange](XPlat.Foundation/collectionchange.md)
