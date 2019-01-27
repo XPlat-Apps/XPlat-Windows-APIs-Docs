@@ -16,6 +16,10 @@ public class Package : IPackage, IPackage2, IPackage3
 | Xamarin.iOS  | 1.0 |
 | UWP | 10.0 | 
 
+## Remarks
+
+Use the [Package.Current](#Current) property to get the package for the current app.
+
 ## Constructors
 
 ### Package(Foundation.NSBundle) - iOS
@@ -29,6 +33,16 @@ The iOS NSBundle reference to retrieve relevant information from.
 #### Parameters
 ##### package (Windows.ApplicationModel.Package)
 The Windows Package reference to retrieve relevant information from.
+
+## Static Properties
+
+### Current
+
+Gets the package for the current app.
+
+```csharp
+public static Package Current { get; }
+```
 
 ## Properties
 
@@ -111,3 +125,9 @@ Gets the original Windows Package reference object.
 ```csharp
 public Windows.ApplicationModel.Package Originator { get; }
 ```
+
+## Related information
+
+### References
+
+[Package - Microsoft Docs](https://docs.microsoft.com/en-us/uwp/api/windows.applicationmodel.package)

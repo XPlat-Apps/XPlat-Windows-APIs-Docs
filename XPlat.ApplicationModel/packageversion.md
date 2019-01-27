@@ -17,6 +17,18 @@ public struct PackageVersion
 | Xamarin.iOS  | 1.0 |
 | UWP | 10.0 |
 
+## Example
+
+Use the Package.Current property to get the package for the current app. Use the Package.Id property to get the package ID, from which you can then get the version.
+
+```csharp
+using XPlat.ApplicationModel;
+
+Package package = Package.Current;
+IPackageId packageId = package.Id;
+PackageVersion version = packageId.Version;
+```
+
 ## Fields
 
 ### Major
@@ -50,3 +62,9 @@ The revision version number of the package.
 ```csharp
 public ushort Revision;
 ```
+
+## Related information
+
+### References
+
+[PackageVersion - Microsoft Docs](https://docs.microsoft.com/en-us/uwp/api/windows.applicationmodel.packageversion)

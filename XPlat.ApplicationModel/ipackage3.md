@@ -26,3 +26,9 @@ Gets the date on which the application package was installed or last updated.
 ```csharp
 DateTimeOffset InstalledDate { get; }
 ```
+
+## Related information
+
+### References
+
+[Package - Microsoft Docs](https://docs.microsoft.com/en-us/uwp/api/windows.applicationmodel.package)

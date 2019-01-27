@@ -42,3 +42,9 @@ Gets the full name of the package.
 ```csharp
 string FullName { get; }
 ```
+
+## Related information
+
+### References
+
+[PackageId - Microsoft Docs](https://docs.microsoft.com/en-us/uwp/api/windows.applicationmodel.packageid)

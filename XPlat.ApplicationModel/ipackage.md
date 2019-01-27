@@ -42,3 +42,9 @@ Gets the packages on which the current package depends.
 ```csharp
 IReadOnlyList<IPackage> Dependencies { get; }
 ```
+
+## Related information
+
+### References
+
+[Package - Microsoft Docs](https://docs.microsoft.com/en-us/uwp/api/windows.applicationmodel.package)

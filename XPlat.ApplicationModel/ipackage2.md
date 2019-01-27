@@ -42,3 +42,9 @@ Indicates whether the package is installed in development mode.
 ```csharp
 bool IsDevelopmentMode { get; }
 ```
+
+## Related information
+
+### References
+
+[Package - Microsoft Docs](https://docs.microsoft.com/en-us/uwp/api/windows.applicationmodel.package)

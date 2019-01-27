@@ -85,3 +85,9 @@ Gets the original Windows Package reference object.
 ```csharp
 public Windows.ApplicationModel.Package Originator { get; }
 ```
+
+## Related information
+
+### References
+
+[PackageId - Microsoft Docs](https://docs.microsoft.com/en-us/uwp/api/windows.applicationmodel.packageid)
