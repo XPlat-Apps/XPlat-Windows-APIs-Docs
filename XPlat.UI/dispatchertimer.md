@@ -20,7 +20,13 @@ NOTE: DispatcherTimer can be accessed from a .NET Standard library, however, it 
 
 ## Constructors
 
-### DispatcherTimer()
+### DispatcherTimer() - Windows
+
+### DispatcherTimer(Windows.UI.Core.CoreDispatcher) - Windows
+
+#### Parameters
+##### dispatcher (Windows.UI.Core.CoreDispatcher)
+The Windows CoreDispatcher reference to use the UI thread from to run the tick event.
 
 ### DispatcherTimer(UIKit.UIViewController) - iOS
 
@@ -45,6 +51,30 @@ public event EventHandler<object> Tick;
 ```
 
 ## Properties
+
+### Dispatcher - Windows
+
+Gets or sets the original Windows CoreDispatcher reference object.
+
+```csharp
+public Windows.UI.Core.CoreDispatcher Dispatcher { get; set; }
+```
+
+### ViewController - iOS
+
+Gets or sets the original iOS UIViewController reference object.
+
+```csharp
+public UIKit.UIViewController ViewController { get; set; }
+```
+
+### Activity - Android
+
+Gets or sets the original Android Activity reference object.
+
+```csharp
+public Android.App.Activity Activity { get; set; }
+```
 
 ### Interval
 
