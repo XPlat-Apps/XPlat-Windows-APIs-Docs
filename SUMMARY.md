@@ -135,6 +135,11 @@
 * [FileOpenPicker](XPlat.Storage.Pickers/fileopenpicker.md)  
 * [IFileOpenPicker](XPlat.Storage.Pickers/ifileopenpicker.md)  
 
+## XPlat.UI
+
+* [DispatcherTimer](XPlat.UI/dispatchertimer.md)  
+* [IDispatcherTimer](XPlat.UI/idispatchertimer.md)  
+
 ## XPlat.UI.Core
 
 * [CoreDispatcher](XPlat.UI.Core/coredispatcher.md)  
