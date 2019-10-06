@@ -2,11 +2,8 @@
 
 ![](.gitbook/assets/projectbanner.png)
 
-## What are XPlat Windows APIs?
+XPlat Windows APIs are designed to make it easier for developers adjusted to developing with the Windows UWP APIs to take those skills cross-platform with their applications.
 
-XPlat Windows APIs are designed to make it easier for Universal Windows Platform \(UWP\) developers to share their knowledge of the platform APIs across Android and iOS.
+As each application platform offers their own unique platform-specific APIs, XPlat attempts to bring all of those APIs under one umbrella using a Windows UWP like API, allowing a developer to learn a single API which works with any application built with UWP or Xamarin for Android and iOS.
 
-XPlat also appeals to developers looking to migrate their existing code bases to Xamarin with minimal code change by mimicking Windows APIs allowing an easy transition to the equivalent XPlat API.
-
-For example, if your application takes advantage of the Windows.Storage \(e.g. Windows.Storage.ApplicationData.Current.LocalFolder\), we provide a XPlat.Storage API for those \(e.g. XPlat.Storage.ApplicationData.Current.LocalFolder\) which you can use in your iOS and Android applications.
-
+For a UWP developer, this is appealing as it allows you to easily migrate your existing UWP code to Xamarin shared code with minimal changes through the use of XPlat Windows APIs which mimic the Windows UWP alternatives.
