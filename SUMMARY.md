@@ -1,7 +1,7 @@
 # Table of contents
 
 * [XPlat Windows APIs](README.md)
-* [Changelog](changelog.md)
+* [Getting started](GETTING-STARTED.md)
 
 ## XPlat.ApplicationModel
 * [IPackage](XPlat.ApplicationModel/ipackage.md)
