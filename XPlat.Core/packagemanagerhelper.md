@@ -12,7 +12,7 @@ public static class PackageManagerHelper
 
 | Platform | Version |
 | --- | --- |
-| Xamarin.Android | 8.1 | 
+| Xamarin.Android | 9.0 | 
 
 ## Static Methods
 

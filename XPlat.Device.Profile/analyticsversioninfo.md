@@ -12,9 +12,9 @@ public class AnalyticsVersionInfo : IAnalyticsVersionInfo
 
 | Platform | Version |
 | --- | --- |
-| Xamarin.Android | 8.1 |
+| Xamarin.Android | 9.0 |
 | Xamarin.iOS  | 1.0 |
-| UWP | 10.0 | 
+| UWP | 10.0.16299 | 
 
 ## Constructors
 

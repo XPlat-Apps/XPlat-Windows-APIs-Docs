@@ -12,8 +12,8 @@ public class Launcher : ILauncher
 
 | Platform | Version |
 | --- | --- |
-| Xamarin.Android | 8.1 |
-| UWP | 10.0 |
+| Xamarin.Android | 9.0 |
+| UWP | 10.0.16299 |
 
 ## Constructors
 
