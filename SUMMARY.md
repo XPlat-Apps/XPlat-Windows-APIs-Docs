@@ -93,6 +93,18 @@
 * [ICameraCaptureUI](XPlat.Media.Capture/icameracaptureui.md)
 * [StorageFileExtensions](XPlat.Media.Capture/storagefileextensions.md)
 
+## XPlat.Services.Maps
+
+* [IMapAddress](XPlat.Services.Maps/imapaddress.md)
+* [IMapLocation](XPlat.Services.Maps/imaplocation.md)
+* [IMapLocationFinderResult](XPlat.Services.Maps/imaplocationfinderresult.md)
+* [MapAddress](XPlat.Services.Maps/mapaddress.md)
+* [MapLocation](XPlat.Services.Maps/maplocation.md)
+* [MapLocationDesiredAccuracy](XPlat.Services.Maps/maplocationdesiredaccuracy.md)
+* [MapLocationFinder](XPlat.Services.Maps/maplocationfinder.md)
+* [MapLocationFinderResult](XPlat.Services.Maps/maplocationfinderresult.md)
+* [MapLocationFinderStatus](XPlat.Services.Maps/maplocationfinderstatus.md)
+
 ## XPlat.Storage
 
 * [ApplicationData](XPlat.Storage/applicationdata.md)
