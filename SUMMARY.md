@@ -12,6 +12,9 @@
 * [PackageId](XPlat.ApplicationModel/packageid.md)
 * [PackageVersion](XPlat.ApplicationModel/packageversion.md)
 
+## XPlat.ApplicationModel.DataTransfer
+* [Clipboard](XPlat.ApplicationModel.DataTransfer/clipboard.md)
+
 ## XPlat.Core
 * [AppPermissionInvalidException](XPlat.Core/apppermissioninvalidexception.md)
 * [CollectionExtensions](XPlat.Core/collectionextensions.md)
