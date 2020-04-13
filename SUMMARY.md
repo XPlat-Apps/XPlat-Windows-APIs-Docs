@@ -14,6 +14,10 @@
 
 ## XPlat.ApplicationModel.DataTransfer
 * [Clipboard](XPlat.ApplicationModel.DataTransfer/clipboard.md)
+* [DataPackage](XPlat.ApplicationModel.DataTransfer/datapackage.md)
+* [DataPackageView](XPlat.ApplicationModel.DataTransfer/datapackageview.md)
+* [IDataPackage](XPlat.ApplicationModel.DataTransfer/idatapackage.md)
+* [IDataPackageView](XPlat.ApplicationModel.DataTransfer/idatapackageview.md)
 
 ## XPlat.Core
 * [AppPermissionInvalidException](XPlat.Core/apppermissioninvalidexception.md)

@@ -35,7 +35,7 @@ private async Task CopyTextToNote(Note note)
 }
 ```
 
-## Methods
+## Static Methods
 
 ### GetContent()
 
@@ -91,7 +91,7 @@ Removes all data from the Clipboard.
 public static void Clear()
 ```
 
-## Events
+## Static Events
 
 ### ContentChanged
 
