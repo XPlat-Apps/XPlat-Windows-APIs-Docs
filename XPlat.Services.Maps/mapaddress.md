@@ -1,0 +1,170 @@
+# MapAddress class
+
+> Namespace: XPlat.Services.Maps
+
+Represents an address.
+
+```csharp
+public class MapAddress : IMapAddress
+```
+
+## Supported platforms
+
+| Platform | Version |
+| --- | --- |
+| .NET Standard | 2.0 |
+| Xamarin.Android | 9.0 |
+| Xamarin.iOS  | 1.0 |
+| UWP | 10.0.16299 | 
+
+## Constructors
+
+### MapAddress(Windows.Services.Maps.MapAddress) - Windows
+
+#### Parameters
+##### mapAddress (Windows.Services.Maps.MapAddress)
+
+### MapAddress(Android.Locations.Address) - Android
+
+#### Parameters
+##### mapLocation (Android.Locations.Address)
+
+### MapAddress(CoreLocation.CLPlacemark) - iOS
+
+#### Parameters
+##### mapLocation (CoreLocation.CLPlacemark)
+
+## Properties
+
+### BuildingName
+
+Gets the building name of an address.
+
+```csharp
+public string BuildingName { get; }
+```
+
+### BuildingFloor
+
+Gets the building floor of an address.
+
+```csharp
+public string BuildingFloor { get; }
+```
+
+### BuildingRoom
+
+Gets the building room of an address.
+
+```csharp
+public string BuildingRoom { get; }
+```
+
+### BuildingWing
+
+Gets the building wing of an address.
+
+```csharp
+public string BuildingWing { get; }
+```
+
+### StreetNumber
+
+Gets the street number of an address.
+
+```csharp
+public string StreetNumber { get; }
+```
+
+### Street
+
+Gets the street name of an address.
+
+```csharp
+public string Street { get; }
+```
+
+### Neighborhood
+
+Gets the neighborhood of an address.
+
+```csharp
+public string Neighborhood { get; }
+```
+
+### District
+
+Gets the district of an address.
+
+```csharp
+public string District { get; }
+```
+
+### Town
+
+Gets the town or city of an address.
+
+```csharp
+public string Town { get; }
+```
+
+### Region
+
+Gets the region (for example, the state or province) of an address.
+
+```csharp
+public string Region { get; }
+```
+
+### RegionCode
+
+Gets the code for the region (for example, the state or province) of an address.
+
+```csharp
+public string RegionCode { get; }
+```
+
+### Country
+
+Gets the country of an address.
+
+```csharp
+public string Country { get; }
+```
+
+### CountryCode
+
+Gets the country code of an address.
+
+```csharp
+public string CountryCode { get; }
+```
+
+### PostCode
+
+Gets the postal code of an address.
+
+```csharp
+public string PostCode { get; }
+```
+
+### Continent
+
+Gets the continent of an address.
+
+```csharp
+public string Continent { get; }
+```
+
+## Methods
+
+### ToString()
+
+Returns a string that represents the current object.
+
+```csharp
+public override string ToString()
+```
+
+#### Returns
+The formatted address as a string, e.g. 1 Microsoft Way, Redmond, WA, 98052.
