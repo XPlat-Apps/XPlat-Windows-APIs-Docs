@@ -12,9 +12,9 @@ public class DispatcherTimer : IDispatcherTimer
 
 | Platform | Version |
 | --- | --- |
-| Xamarin.Android | 8.1 |
+| Xamarin.Android | 9.0 |
 | Xamarin.iOS  | 1.0 |
-| UWP | 10.0 | 
+| UWP | 10.0.16299 | 
 
 NOTE: DispatcherTimer can be accessed from a .NET Standard library, however, it will not run the action on the appropriate platform specific dispatcher. Instead, it will run like a regular System.Threading.Timer.
 

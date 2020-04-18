@@ -12,10 +12,10 @@ public enum PositionStatus
 
 | Platform | Version |
 | --- | --- |
-| .NET Standard | 1.4 |
-| Xamarin.Android | 8.1 |
+| .NET Standard | 2.0 |
+| Xamarin.Android | 9.0 |
 | Xamarin.iOS  | 1.0 |
-| UWP | 10.0 |
+| UWP | 10.0.16299 |
 
 ## Fields
 

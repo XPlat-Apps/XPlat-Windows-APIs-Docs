@@ -12,6 +12,13 @@
 * [PackageId](XPlat.ApplicationModel/packageid.md)
 * [PackageVersion](XPlat.ApplicationModel/packageversion.md)
 
+## XPlat.ApplicationModel.DataTransfer
+* [Clipboard](XPlat.ApplicationModel.DataTransfer/clipboard.md)
+* [DataPackage](XPlat.ApplicationModel.DataTransfer/datapackage.md)
+* [DataPackageView](XPlat.ApplicationModel.DataTransfer/datapackageview.md)
+* [IDataPackage](XPlat.ApplicationModel.DataTransfer/idatapackage.md)
+* [IDataPackageView](XPlat.ApplicationModel.DataTransfer/idatapackageview.md)
+
 ## XPlat.Core
 * [AppPermissionInvalidException](XPlat.Core/apppermissioninvalidexception.md)
 * [CollectionExtensions](XPlat.Core/collectionextensions.md)
@@ -85,6 +92,18 @@
 * [CameraCaptureUIVideoCaptureSettings](XPlat.Media.Capture/cameracaptureuivideocapturesettings.md)
 * [ICameraCaptureUI](XPlat.Media.Capture/icameracaptureui.md)
 * [StorageFileExtensions](XPlat.Media.Capture/storagefileextensions.md)
+
+## XPlat.Services.Maps
+
+* [IMapAddress](XPlat.Services.Maps/imapaddress.md)
+* [IMapLocation](XPlat.Services.Maps/imaplocation.md)
+* [IMapLocationFinderResult](XPlat.Services.Maps/imaplocationfinderresult.md)
+* [MapAddress](XPlat.Services.Maps/mapaddress.md)
+* [MapLocation](XPlat.Services.Maps/maplocation.md)
+* [MapLocationDesiredAccuracy](XPlat.Services.Maps/maplocationdesiredaccuracy.md)
+* [MapLocationFinder](XPlat.Services.Maps/maplocationfinder.md)
+* [MapLocationFinderResult](XPlat.Services.Maps/maplocationfinderresult.md)
+* [MapLocationFinderStatus](XPlat.Services.Maps/maplocationfinderstatus.md)
 
 ## XPlat.Storage
 
