@@ -1,5 +1,8 @@
 # XPlat Windows APIs
 
+> [!IMPORTANT]
+> This project is no longer maintained. It was created for Xamarin-era cross-platform development and has not been actively maintained for several years. The repository remains available for historical/reference purposes.
+
 ![](.gitbook/assets/projectbanner.png)
 
 XPlat Windows APIs are designed to make it easier for developers adjusted to developing with the Windows UWP APIs to take those skills cross-platform with their applications.
